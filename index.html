@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: chartreuse;
+            font-family: sans-serif;
+
+        }
+
+        .sectionAll {
+            background-color: rgb(199, 159, 236);
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            color: whitesmoke;
+        }
+
+        #section1 {
+            background-color: #070707;
+            height: 700px;
+            background-image: url(Banner.jpg);
+            background-size: cover;
+        }
+
+        #section2 {
+            background-color: #191919;
+            height: 690px;
+        }
+
+        #section3 {
+            background-color: #070707;
+            height: 700px;
+
+        }
+
+        #section4 {
+            background-color: #191919;
+            height: 250px;
+            text-align: center;
+        }
+
+        #section5 {
+            background-color: #070707;
+            height: 400px;
+            text-align: center;
+        }
+
+
+        /* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+        #navbar {
+            /* background-color: blueviolet; */
+            width: 100%;
+            height: 50px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        #NavLogo {
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            text-align: left;
+            margin-left: 20px;
+            width: 200px;
+        }
+
+        #NavBtn {
+            background-color: #f3074f;
+            border-radius: 30px;
+            width: 150px;
+            padding: 0px;
+            text-align: center;
+            font-size: 20px;
+            float: right;
+            margin-top: 10px;
+            margin-right: 30px;
+        }
+
+        #navbar ul {
+            /* background-color: rgba(0, 49, 49, 0.61); */
+            list-style: none;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        .NavbarItem {
+            /* background-color: #f3074e6e; */
+            margin-inline: 8px;
+            margin-top: 7px;
+        }
+
+        #navbar a,
+        li {
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            color: azure;
+        }
+
+        #headContainer {
+            /* background-color: rgba(43, 19, 0, 0.26); */
+            margin-top: 80px;
+            padding: 30px;
+            padding-left: 60px;
+        }
+
+        #emailBar {
+            margin-top: 40px;
+            background-color: #ffffff;
+            height: 38px;
+            width: 380px;
+            padding: 3px;
+            border-radius: 100px;
+            border: 2px solid #f3074f;
+        }
+
+        #emailBar input {
+            border: none;
+            background-color: inherit;
+            width: 60%;
+            height: 100%;
+            border-radius: 100px;
+            padding-left: 15px;
+        }
+
+        #emailBar button {
+            border-radius: 100px;
+            border: 2px solid #a80536;
+            background-color: #f3074f;
+            height: 100%;
+            width: 35%;
+            color: #ffffff;
+            float: right;
+        }
+
+        #emailBar a {
+            text-decoration: none;
+            color: #ffffff;
+
+        }
+
+        /* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+        .boxContainer {
+            /* background-color: aqua; */
+            display: inline-block;
+            margin-top: 100px;
+            /* border: 2px solid #f3074f; */
+
+        }
+
+        #box1 {
+            /* background-color: darkblue; */
+            /* background-image: url(box1.PNG); */
+            /* background-size: cover; */
+            height: 500px;
+            width: 370px;
+            float: left;
+            margin-left: 200px;
+        }
+
+        #box2 {
+            /* background-color: rgba(0, 139, 139, 0.205); */
+            height: 500px;
+            width: 500px;
+            float: right;
+            margin-right: 200px;
+        }
+
+        #box2 a {
+            background-color: #f3074f;
+            border-radius: 30px;
+            border: 3px solid #a80536;
+            width: 100px;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 40px;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            color: azure;
+        }
+
+
+        /* ///////////////////////////////////////////////////////////////////////////////////////// */
+        #sec3Title {
+
+            /* background-color: #ef99a9; */
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        #sec3BoxContainer {
+            /* border: 2px solid rgb(255, 255, 255); */
+            text-align: center;
+
+        }
+
+        .sec3Box {
+            border-radius: 17px;
+            width: 270px;
+            height: 300px;
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            background-color: #191919;
+            padding-top: 50px;
+        }
+
+        .sec3Box img {
+            width: 70px;
+            height: auto;
+        }
+
+        .sec3Box p {
+            font-size: 15px;
+            color: #93888e;
+        }
+
+
+        .sec3Box a {
+            margin-top: 10px;
+            background-color: #f3074f;
+            border-radius: 30px;
+            border: 3px solid #a80536;
+            width: 110px;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            color: azure;
+        }
+
+        /* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+        /*       SECTION 4 + 5     */
+        #section4 h2,
+        #section5 h2 {
+            margin: 0px;
+            padding-top: 75px;
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        #section4 a {
+            margin-top: 20px;
+            background-color: #f3074f;
+            border-radius: 30px;
+            border: 3px solid #a80536;
+            width: 110px;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            color: azure;
+
+        }
+
+        /* ////////////////////////////// */
+
+
+        #section5 p {
+            font-size: 17px;
+            font-weight: 100;
+            color: rgb(156, 156, 156);
+        }
+
+        #links img {
+            width: 35px;
+            height: 35px;
+            /* background-color: rgba(0, 128, 0, 0.473); */
+
+        }
+
+        .iconHolder {
+            width: 35px;
+            height: 35px;
+            background-color: #f3074f;
+            border-radius: 100px;
+            display: inline-block;
+            padding: 5px;
+            margin-inline-end: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="website-body">
+        <div id="section1" class="sectionAll">
+            <div id="navbar">
+                <ul>
+                    <li id="NavLogo"><a href="#">Portfo<span style="color: #f3074f;">lio</span></a>
+                    </li>
+                    <li class="NavbarItem"><a href="#">Home</a></li>
+                    <li class="NavbarItem"><a href="#">About Us</a></li>
+                    <li class="NavbarItem"><a href="#">Services</a></li>
+                    <li class="NavbarItem"><a href="#">Skills</a></li>
+                    <li class="NavbarItem"><a href="#">Contact Us</a></li>
+                    <li id="NavBtn"><a href="#">Subscribe</a></li>
+                </ul>
+            </div>
+            <div id="headContainer">
+                <h3 style="font-size: 18px; margin-bottom: 12px; color: #93888e; letter-spacing: 3px;">Hello, my name
+                    is
+                </h3>
+                <h1 style="font-size: 80px; margin: 0px; letter-spacing: 1px;">Jack <span
+                        style="color: #f3074f;">Frost</span>
+                </h1>
+                <h2 style="font-size: 25px; margin-top: 15px;  letter-spacing: 1px;">I'am a Web Developer</h2>
+
+                <div id="emailBar">
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                    <button type="submit"><a href="#">Lets Talk</a></button>
+                </div>
+            </div>
+        </div>
+        <div id="section2" class="sectionAll">
+            <div id="box1" class="boxContainer">
+                <img src="Mypic.jpg" alt="" style="height: auto; width: 100%;">
+            </div>
+            <div id="box2" class="boxContainer">
+                <h1 style="font-size: 60px; margin: 0px; letter-spacing: 1px; margin-top: 50px;">About Me</h1>
+                <h2>Developer <span style="color: #f3074f;">& Designer</span></h2>
+                <p style="font-size: 15px; margin-bottom: 12px; color: #93888e; letter-spacing: 3px;">Hey there, fellow
+                    gamers and creatives! I'm Purvesh Choudhary, a passionate Indie Game Developer hailing from India.
+                    Currently pursuing my BCA degree, I am constantly learning and growing as a developer and artist.
+                    When I'm not studying, you can find me lost in the world of art and storytelling. Drawing, graphics
+                    design, and story
+                    writing are my go-to hobbies, and I love exploring new ideas and techniques in each of these areas.
+                </p>
+                <a href="#">
+                    Lets Talk
+                </a>
+            </div>
+        </div>
+        <div id="section3" class="sectionAll">
+            <div id="sec3Title">
+                <h1 style="font-size: 60px; letter-spacing: 1px; margin: 0px;">Our Services</h1>
+            </div>
+            <div id="sec3BoxContainer">
+                <div class="sec3Box">
+                    <img src="Icon.png" alt="">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, perspiciatis nemo? Optio quaerat
+                        sequi tenetur. Dignissimos provident dolores ea sapiente.
+                    </p>
+                    <a href="#">
+                        Read More
+                    </a>
+                </div>
+                <div class="sec3Box">
+                    <img src="icon.png" alt="">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, perspiciatis nemo? Optio quaerat
+                        sequi tenetur. Dignissimos provident dolores ea sapiente.
+                    </p>
+                    <a href="#">
+                        Read More
+                    </a>
+                </div>
+                <div class="sec3Box">
+                    <img src="icon.png" alt="">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, perspiciatis nemo? Optio quaerat
+                        sequi tenetur. Dignissimos provident dolores ea sapiente.
+                    </p>
+                    <a href="#">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="section4" class="sectionAll">
+
+            <h2>Let Me Give You A Beautiful Website.</h2>
+            <a href="#">
+                Hire Me
+            </a>
+        </div>
+        <div id="section5" class="sectionAll">
+            <h2>Jack Frost</h2>
+            <p>For more HTML, CSS, and coding tutorial. please click on the<br>below to subscribe to my channel</p>
+
+            <div id="links">
+                <div class="iconHolder"><a href="#"><img src="Facebook.png" alt=""></a></div>
+                <div class="iconHolder"><a href="#"><img src="Instagram.png" alt=""></a></div>
+                <div class="iconHolder"><a href="#"><img src="Twitter.png" alt=""></a></div>
+            </div>
+
+            <h5 style=" margin-top: 90px;color: #f3074f; ">Copyright By Purvesh Choudhary</h5>
+        </div>
+    </div>
+</body>
+
+</html>
