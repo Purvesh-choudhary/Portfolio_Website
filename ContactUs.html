@@ -103,7 +103,8 @@
         /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
         #headContainer {
-            background: linear-gradient(#ff004c, #c50236);
+            /* background: linear-gradient(#ff004c, #c50236); */
+            background: linear-gradient(#f4114d, #ff004c, #c50236);
             margin-top: 40px;
             padding: 30px;
             padding-left: 60px;
@@ -206,31 +207,34 @@
             color: #ffffff;
             /* border: 2px solid rgb(243, 1, 21); */
             font-size: 20px;
-            width: 100%;
+            width: 90%;
             display: block;
             padding: 10px;
+            margin: auto;
             margin-top: 20px;
-
+            display: block;
         }
 
 
 
         #Box_contactUs input,
         #Box_contactUs textarea {
-            background-color: whitesmoke;
-            /* border: 2px solid rgb(243, 1, 21); */
+            background-color: #def1f3;
+            border: none;
             border-radius: 10px;
-            width: 96.3%;
+            width: 90%;
             font-size: 18px;
             height: 25px;
             padding: 10px;
+            font-weight: bold;
+            margin: auto;
+            display: block;
         }
 
         #Box_contactUs textarea {
             height: 100px;
+            resize: none;
         }
-
-
 
         .btn {
             background-color: #fe004c;
@@ -238,8 +242,10 @@
             border-radius: 10px;
             padding: 10px;
             color: #ffffff;
+            text-shadow: 0px 5px 20px rgb(0, 0, 0);
             font-size: 20px;
             font-weight: bold;
+            display: block;
             width: 100%;
             margin: auto;
             margin-top: 30px;
@@ -307,15 +313,15 @@
                     <form>
                         <div class="contactusContainer">
                             <label for="name">Name</label>
-                            <input type="text" required>
+                            <input type="text" name="name" id="name" required>
                         </div>
                         <div class="contactusContainer">
                             <label for="email">Email</label>
-                            <input type="email" required>
+                            <input type="email" required name="email" id="email">
                         </div>
                         <div class="contactusContainer">
                             <label for="description">Description</label>
-                            <textarea name="" id="" cols="30" rows="10" required></textarea>
+                            <textarea id="description" cols="30" rows="10" required name="description"></textarea>
                         </div>
                         <button type="submit" class="btn">Send</button>
                     </form>
